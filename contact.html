@@ -101,7 +101,7 @@ $(document).ready(function(){
 					<div class="col-md-7 contact-grid agileinfo-5">
 						<h4>Your Message</h4>
 						<p>Core Webber (PTY) LTD was established in 2021 to assist in the process of execution of infrastructure projects and restructuring, reordering and revising of existing structures.</p>
-						<form action="#" method="post">
+						<form  action="https://formspree.io/f/xleknkjr"  method="POST"  enctype="multipart/form-data">
 							<label>Name</label>
 							<input type="text" name="Name" placeholder="Your name" required="">
 							<label>Email</label>
@@ -118,6 +118,10 @@ $(document).ready(function(){
 							<input type="text" name="Subject" placeholder="Subject" required="">
 							<label>Message</label>
 							<textarea placeholder="Message" name="Message"></textarea>
+							<label>
+								Upload file:
+								<input type="file" name="upload">
+							  </label>
 							<input type="submit" value="Send message">
 						</form>
 					</div>
